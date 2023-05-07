@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="petrol calculator.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="Petrol calculator.js"></script>
+    <h1>Petrol Cost Calculator</h1>
+    <!--Every tag is marked using id attribute to easily recognize in css file-->
+    <div id="first">
+        <form>
+            <!--Use of input tag to create fields to enter values in form of numbers-->
+            <!--&nbsp used to align the two fields -->
+            Cost/litre:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <!--value property used to set default value-->
+            <input id="cost" type="number" value="1.72" step="0.01" ><br><br>
+            Number of litres purchased: &nbsp;
+            <input id="no.oflitres" type="number" value="0" min="0"><br><br>
+        </form>
+    </div>
+    <!--Button tag used to create a calculate button, which is linked to the function created in javacsript-->
+        <button onclick="calculateprice()" id="Button">
+            Calculate
+        </button>
+        <!--p tag used for the result statement-->
+    <p  id="TOTALCOST"></p>
+</body>
+</html>

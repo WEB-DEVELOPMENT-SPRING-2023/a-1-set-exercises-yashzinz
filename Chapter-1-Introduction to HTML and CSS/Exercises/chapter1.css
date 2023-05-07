@@ -1,8 +1,39 @@
 body{
     background-color: rgba(255, 255, 255, 0.704);
-    font-size: x-large;
+    font-size: large;
     margin: 10px;
 }
-div#1{background-blend-mode: lighten;
-
+ul.a{
+    list-style-type:none;
+    padding: none;
+    margin: none;
+    overflow: hidden;
+    background-color: rgb(199, 119, 62);
 }
+
+li {
+  float: left;
+}
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .styleimage{
+    display: block;
+    text-align: center;
+    padding-left: 36%;
+    width: 400px;
+  }
+  .ref{
+    display: block;
+    width: 300px;
+  }
