@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="chap1 bonus.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    <h1>HTML & CSS QUICK REFERENCE GUIDE</h1>
+    </header><br>
+
+    <header class="sub">HTML TAGS</header>
+
+    <h2>Body Tag</h2>
+    <p>The body part of an HTML document. In fact, this is an integral part of all HTML documents but it is just a tag that marks what is the visible content of the page, where the most content is.</p>
+    <h3>Example</h3>
+    <p class="example">
+    <code>
+        &lt;body&gt; 
+        Hi, this is a html reference guide  
+        &lt;/body&gt; 
+    </code>
+    </p>
+
+
+
+    <h2>Title Tags</h2>
+    <p>The &lt;h1&gt; to &lt;h6&gt; tags are used to define HTML headings.&lt;h1> defines the most important heading. &lt;h6&gt; defines the least important heading.</p>
+    <h3>Example</h3>
+    <p class="example">
+    <code>
+        &lt;h1&gt;This is heading 1&lt;/h1&gt;<br>
+        &lt;h2&gt;This is heading 2&lt;/h2&gt;<br>
+        &lt;h3&gt;This is heading 3&lt;/h3&gt;<br>
+        &lt;h4&gt;This is heading 4&lt;/h4&gt;<br>
+        &lt;h5&gt;This is heading 5&lt;/h5&gt;<br>
+        &lt;h6&gt;This is heading 6&lt;/h6&gt;<br>
+    </code>
+    </p>
+
+
+    <h2>Paragraph tag</h2>
+    <p>The &lt;p&gt; tag defines a paragraph. Browsers automatically add a single blank line before and after each <p> element.</p>
+    <h3>Example</h3>
+    <p class="example">
+    <code>
+        &lt;p&gt;This is some text in a paragraph.&lt;/p&gt;
+    </code>
+    </p>
+    <h2>List Tags</h2>
+    <h3>Unordered List</h3>
+    <p>The &lt;ul&gt; tag defines an unordered (bulleted) list. Use the &lt;ul&gt; tag together with the &lt;li&gt;tag to create unordered lists.</p>
+    <h3>Example</h3>
+    <p class="example">
+    <code>
+        &lt;ul&gt;<br>
+        &lt;li&gt;Coffee&lt;/li&gt;<br>
+        &lt;li&gt;Tea&lt;/li&gt;<br>
+        &lt;li&gt;Milk</li>&lt;/li&gt;
+    </code>
+    </p>
+
+    <h3>Ordered List</h3>
+    <p>The &lt;ol&gt; tag defines an ordered list. An ordered list can be numerical or alphabetical. The &lt;li&gt; tag is used to define each list item.</p>
+    <h3>Example</h3>
+    <p class="example"> 
+    <code>
+        &lt;ol&gt;<br>
+        &lt;li&gt;Coffee&lt;li&gt;<br>
+        &lt;li&gt;Tea&lt;/li&gt;<br>
+        &lt;li&gt;Milk</li>&lt;/li&gt;<br>
+    </code>
+    </p>
+
+
+
+    <h2> Header Tag</h2>
+    <p>The &lt;header&gt; element represents a container for introductory content or a set of navigational links.&lt;A header&gt; element typically contains:
+       <ul> 
+        <li>One or more heading elements (&lt;h1&gt; - &lt;h6&gt;)</li>
+        <li>logo or icon</li>
+       <li> authorship information</li>
+    </ul>
+    <h3>Example</h3>
+        <p class="example">
+        <code>
+        &lt;header&gt;<br>
+       &nbsp; &lt;h1&gt;A heading here&lt;/h1&gt;<br>
+       &nbsp; &lt;p&gt;Posted by John Doe&lt;/p&gt;<br>
+       &nbsp;&nbsp;&lt;p&gt;Some additional information here&lt;/p&gt;<br>
+    &lt;header&gt;
+        </code>
+        </p>
+    
+    <h2>Footer Tag</h2>
+    <p>The &lt;footer&gt; tag defines a footer for a document or section. A &lt;footer&gt; element typically contains:</p>
+    <ul>
+    <li>authorship information</li>
+    <li>copyright information</li>
+    <li>contact information</li>
+    <li>sitemap</li>
+    <li>back to top links</li>
+    <li>related documents</li>
+    You can have several &lt;footer&gt; elements in one document.
+    </ul>
+    <h3>Example</h3>
+    <p class="example">
+    <code>
+    &lt;footer&gt;<br>
+        &lt;p&gt;Author: Hege Refsnes&lt;/p&gt;<br>
+        &lt;p&gt;&lt;a href="mailto:hege@example.com">hege@example.com &lt;/p&gt;<br>
+    &lt;/footer&gt;
+    </code>
+    </p>
+    <h2>Div Tag</h2>
+    <p>The &lt;div&gt; tag defines a division or a section in an HTML document.The &lt;div&gt; tag is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript. The &lt;div&gt; tag is easily styled by using the class or id attribute. Any sort of content can be put inside the &lt;div&gt; tag!</p> 
+    <h3>Example</h3>        
+    <p class="example">
+    <code>
+        &lt;html&gt;<br>
+        &lt;head&gt;<br>
+        &nbsp;&nbsp;&lt;style&gt;<br>
+            &nbsp;&nbsp;.myDiv {
+                border: 5px outset red;
+                background-color: lightblue;
+                text-align: center;}<br>
+                &nbsp;&nbsp;&lt;/style&gt;<br>
+                &lt;/head&gt;<br>
+                &lt;/html&gt;<br>
+                &lt;html&gt;<br><br>
+                &lt;div class="myDiv"&gt;<br>
+                  &lt;h2&gt;This is a heading in a div element&lt;/h2&gt;<br>
+                  &lt;p&gt;This is some text in a div element.&lt;/p&gt;<br>
+                  &lt;/div&gt;<br>
+                
+                &lt;/head&gt;<br>
+                &lt;/html&gt;<br>
+    </code>
+    </p>
+    <h2>Hyperlink Tag</h2>
+    <p>The <a> tag defines a hyperlink, which is used to link from one page to another. The most important attribute of the <a> element is the href attribute, which indicates the link's destination.By default, links will appear as follows in all browsers:
+        <ul>            
+            <li>An unvisited link is underlined and blue</li>
+            <li>A visited link is underlined and purple</li>
+            <li>An active link is underlined and red</li> 
+        </ul>
+    </p>
+    <h3>Example</h3>
+    <p class="example">
+        <code>
+            &lt;a href="https://www.w3schools.com"&gt; Visit W3Schools.com!&lt;/a&gt;
+        </code>
+    </p>
+    <h2>Image Tag</h2>
+    <p>The <img> tag is used to embed an image in an HTML page. Images are not technically inserted into a web page; images are linked to web pages. The <img> tag creates a holding space for the referenced image.  The <img> tag has two required attributes:
+        <ul>
+            <li>src - Specifies the path to the image</li>
+            <li>alt - Specifies an alternate text for the image, if the image for some reason cannot be displayed</li>
+        </ul>
+    </p>
+    <h3>Example</h3>
+    <p class="example">&lt;img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600"></p>
+
+    <h2>Button Tag</h2>
+    <p>The &lt;button&gt; tag defines a clickable button. Inside a &lt;button&gt; element you can put text (and tags like &lt;i&gt;, &lt;b&gt;, &lt;strong&gt;, &lt;br&gt;, &lt;img&gt;, etc.). That is not possible with a button created with the &lt;input&gt; element!
+    <h3>Example</h3>
+    <p class="example">
+    <code>        
+        &lt;button type="button">Click Me!&lt;/button&gt;
+    </code>
+    </p>
+
+    <hr>
+    <header class="sub">CSS PROPERTIES</header>
+    <h2>Font</h2>
+    <p>The font property is a shorthand property for:
+        <ul>
+        <li>font-style</li>
+        <li>font-variant</li>
+        <li>font-weight</li>
+        <li>font-size/line-height</li>
+        <li>font-family</li>
+        The font-size and font-family values are required. If one of the other values is missing, their default value are used.</p>
+        </ul>
+        <h3>Example</h3>
+        <p class="example">
+            <code>
+            p.a {
+                font: 15px Arial, sans-serif;
+            }<br><br>              
+              p.b {
+                font: italic small-caps bold 12px/30px Georgia, serif;
+              }<br>
+            </code>
+        </p>
+
+        <h2>Background-image Tag</h2>
+        <p>The background-image property sets one or more background images for an element. By default, a background-image is placed at the top-left corner of an element, and repeated both vertically and horizontally.</p>
+        <h3>Example</h3>
+        <p class="example">
+            <code>
+                body {<br>
+                    background-image: url("img_tree.gif"), url("paper.gif");<br>
+                    background-color: #cccccc;<br>
+                  }
+            </code>
+        </p>
+        <h2>Background-Repeat Property</h2>
+        <p>The background-repeat property sets if/how a background image will be repeated. By default, a background-image is repeated both vertically and horizontally.</p>
+        <p class="example">
+            <code>
+                body {<br>
+                    background-image: url("paper.gif");<br>
+                    background-repeat: repeat-y;<br>
+                  }
+            </code>
+        </p>
+        <h2>Border Property</h2>
+        <p>The border property is a shorthand property for:
+            <ul>
+        <li>border-width</li>
+        <li>border-style (required)</li>
+        <li>border-color</li>
+        <li>If border-color is omitted, the color applied will be the color of the text.</li>
+            </ul>
+        </p>
+        <h3>Example</h3>
+        <p class="example">
+            <code>
+                h1 {<br>
+                    border: 5px solid red;<br>
+                }<br>                 
+                  h2 {
+                    border: 4px dotted blue;<br>
+                  }
+            </code>
+        </p>
+        <h2>Cursor Property</h2>
+        <p>The cursor property specifies the mouse cursor to be displayed when pointing over an element.</p>
+        <h3>Exammple</h3>
+        <p class="example">
+            <code>
+                .pointer {<br>
+                    cursor: pointer;<br>
+                }
+            </code>
+        </p>
+        <h2> Margin Property</h2>
+        <p>The margin property sets the margins for an element, and is a shorthand property for the following properties:
+        <ul>
+        <li>margin-top</li>
+        <li>margin-right</li>
+        <li>margin-bottom</li>
+        <li>margin-left</li>
+        </ul></p>
+        <h3>Example</h3>
+        <p class="example">
+            <code>
+                p{<br>
+                    margin: 35px;<br>
+                }   
+            </code>
+        </p>
+        
+        
+        
+        
+        
+        <h2>Padding</h2>
+        <p>An element's padding is the space between its content and its border. The padding property is a shorthand property for:
+        <ul>
+        <li>padding-top</li>
+        <li>padding-right</li>
+        <li>padding-bottom</li>
+        <li>padding-left</li>
+        </ul>
+        <p class="example">
+            <i>-If the padding property has three values:<br><br></i>
+        <code>p{<br>
+            padding:10px 5px 15px 20px;}<br><br>
+        </code>
+        top padding is 10px<br>
+        right padding is 5px<br>
+        bottom padding is 15px<br>
+        left padding is 20px<br><br>
+
+        <i>-If the padding property has three values:<br><br></i>
+        <code>p{<br>
+        padding:10px 5px 15px;}</code><br><br>
+        top padding is 10px<br>
+        right and left padding are 5px<br>
+        bottom padding is 15px<br><br>
+
+        <i>-If the padding property has two values:</i><br><br>
+        <code>p{<br>padding:10px 5px;}<br></code><br>
+        top and bottom padding are 10px<br>
+        right and left padding are 5px<br>
+        If the padding property has one value:<br>k
+        </p>
+        <h2>List-Style Property</h2>
+        <p>
+            The list-style property is a shorthand for the following properties:
+            <ul>
+            <li>list-style-type</li>
+            <li>list-style-position</li>
+            <li>list-style-image</li>
+            </ul>
+        </p>
+        <h3>Example</h3>
+        <p class="example">
+        <code>z
+            ul {<br>
+                list-style: square inside url("sqpurple.gif");<br>
+              }
+        </code>
+        </p> 
+</body>
+</html>

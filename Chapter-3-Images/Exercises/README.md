@@ -39,7 +39,7 @@ Using the starter code below edit the files to recreate the image provided
   </head>
   <body>
     <div>div#A</div>
-    <div>div#B</div>
+    <div>div#B</div> 
     <div>div#C</div>
     <div>div#D</div>
   </body>

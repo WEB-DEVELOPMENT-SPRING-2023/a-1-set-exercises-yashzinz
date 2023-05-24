@@ -1,0 +1,84 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+body{
+  background-color: rgba(255, 255, 255, 0.704);
+  margin: 10px;
+} 
+
+h1{
+  font-size: 65px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+h2{
+  font-size: 30px;
+  margin-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav{
+    list-style-type:none;
+    overflow: hidden;
+    background-color: rgb(199, 119, 62);
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 410px;
+    margin-top: 20px;
+}
+.nav li {
+  float: left;
+}
+
+.nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 29px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  
+li a:hover {
+    background-color: #111;
+  }
+
+
+.styleimage{
+    display: block;
+    text-align: center;
+    padding-left: 40%;
+    width: 300px;
+  }
+.ref{
+    display: block;
+    width: 420px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: right;
+    height: 700px;
+    margin-right: 50px;
+    border-radius: 5px;
+  }
+p{
+  margin-top: 30px;
+  text-align: left;
+  font-size: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.ingredients li {
+  margin-left: 50px;
+  font-size: 25px;
+  padding-top: 10px;
+}
+ol li{
+  margin-left: 50px;
+  font-size: 25px;
+  padding-top: 20px;
+}
